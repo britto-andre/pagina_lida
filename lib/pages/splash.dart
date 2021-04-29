@@ -1,20 +1,27 @@
 import 'package:flutter/material.dart';
-// import 'package:lottie/lottie.dart';
+import 'package:pagina_lida/tema.dart';
 
 class Splash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
+      backgroundColor: Tema.corFundoClaro,
+      body: Center(
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            Text('Preparando o aplicativo para você...'),
-            // Lottie.asset(
-            //   'assets/lottiefiles/marcador.json',
-            //   width: 300,
-            //   height: 200,
-            //   fit: BoxFit.fill,
-            // ),
+            Image.asset(
+              'assets/icone.png',
+              height: 100,
+            ),
+            SizedBox(height: 70),
+            Padding(
+              padding: EdgeInsets.only(left: 40.0),
+              child: Text(
+                'Preparando o aplicativo para você...',
+                style: Theme.of(context).textTheme.headline1,
+              ),
+            )
           ],
         ),
       ),
