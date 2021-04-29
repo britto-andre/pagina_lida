@@ -2,7 +2,7 @@
     package="com.example.pagina_lida">
    <application
         android:label="pagina_lida"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

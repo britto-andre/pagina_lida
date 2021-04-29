@@ -5,6 +5,7 @@ class Tema {
     return ThemeData(
       primaryColor: Colors.amber,
       canvasColor: Color(0xFFBEE3DB),
+      fontFamily: 'Quicksand',
     );
   }
 }

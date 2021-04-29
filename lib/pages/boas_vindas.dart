@@ -7,7 +7,10 @@ class BoasVindas extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            Text('Boas vindas'),
+            Text(
+              'Boas vindas',
+              style: TextStyle(fontFamily: 'DancingScript'),
+            ),
           ],
         ),
       ),
