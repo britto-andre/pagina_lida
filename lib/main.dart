@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: Tema.tema,
-      initialRoute: '/',
+      initialRoute: '/login',
       routes: {
         '/': (context) => Splash(),
         '/login': (context) => Login(),

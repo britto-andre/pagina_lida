@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929371631529",
+    "project_id": "pagina-lida",
+    "storage_bucket": "pagina-lida.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929371631529:android:f5c0239196b91331d81eb8",
+        "android_client_info": {
+          "package_name": "technology.britto.pagina_lida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929371631529-46kq9fonkk992jncp4ji06c9n2ode1hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6IyL2sZbstCwhawQSy7fjw9ZoFVEkq-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929371631529-46kq9fonkk992jncp4ji06c9n2ode1hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
