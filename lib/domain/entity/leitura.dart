@@ -1,4 +1,4 @@
-import 'package:pagina_lida/dominio/leituraRegistro.dart';
+import 'leituraRegistro.dart';
 
 class Leitura {
   String uid;

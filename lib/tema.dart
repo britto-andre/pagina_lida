@@ -10,6 +10,7 @@ class Tema {
       fontFamily: 'Quicksand',
       textTheme: TextTheme(
         headline1: TextStyle(fontSize: 44.0, color: Tema.corTextoAzul),
+        headline3: TextStyle(fontSize: 26.0, color: Tema.corTextoAzul),
       ),
     );
   }

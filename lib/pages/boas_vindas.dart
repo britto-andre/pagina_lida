@@ -4,14 +4,10 @@ class BoasVindas extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
+      body: Center(
         child: Column(
-          children: [
-            Text(
-              'Boas vindas',
-              style: TextStyle(fontFamily: 'DancingScript'),
-            ),
-          ],
+          mainAxisSize: MainAxisSize.min,
+          children: [Text('Bem vindo...')],
         ),
       ),
     );
