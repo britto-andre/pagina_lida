@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pagina_lida">
+    package="britto.technology.pagina_lida">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+
    <application
         android:label="pagina_lida"
         android:icon="@mipmap/launcher_icon">
