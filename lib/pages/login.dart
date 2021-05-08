@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:pagina_lida/components/loading.dart';
 import 'package:pagina_lida/components/login_form.dart';
 
 class Login {
